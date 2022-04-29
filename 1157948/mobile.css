@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+
+.all-link{
+    display: flex;
+    padding-right: 14%;
+    align-items: center;
+    /* margin:22px 0 22px 22px; */
+    list-style: none;
+    height:10em;
+    width:85em;
+    background-color: #2980B9;
+}
+
+nav {
+    flex:1;
+    text-align: right;
+}
+nav li{
+    text-decoration:none;   
+}
+ ul li{
+    list-style: none;
+    display: inline-block;
+     margin-left: 40px; 
+     position: relative;
+     right:3em;
+    color:white;
+    text-transform: capitalize;
+    text-decoration:none;
+    list-style: none;
+    font-size: 38px;
+    font-family: open sans;
+}
+
+.logo{
+    height:80px;
+    width:157px;
+    position: relative;
+    top:4px;
+    left:15em;
+}
+.details{
+    background-image:url(./images-project3/image1.jpg);
+    height:210vh;
+    width:200vw;
+    background-size:cover;
+    background-position: center;
+    opacity: 99; 
+}
+.details >p {
+    font-size: 18px;
+    color:white;
+    position: relative;
+    top:530px;
+    left:240px;
+
+}
+.full-detail > h2{
+    font-size: 179px;
+    height:50px;
+    width:10px;
+    color: white;
+    font-family: montserrat;
+    margin-left:240px;
+    position: relative;
+    top:340px;
+    line-height: 90px;
+    animation: moveupward 1s linear 1;
+    animation-delay: .1s;
+    animation-fill-mode: upwards;
+}
+.detail-grid{
+     display: grid; 
+    grid-template-rows: 200px;
+    justify-content: space-around;
+    position: relative;
+    top:450px;
+    animation: zoom 1s linear 1;
+    animation-delay: .2s;
+    animation-fill-mode: upwards;
+    }
+    @keyframes zoom{
+    100%{
+        transform: scale(0,0); 
+    }
+    0%{
+        transform: scale(0,0);
+    }
+    } 
+    .shape1{
+        height:6px;
+        width:1000px;
+        position: relative;
+        top:410px;
+        left:240px;
+        background-color:white;
+        animation: moveupward 1s linear 1;
+        animation-delay: .1s;
+        animation-fill-mode: upwards;
+    }
+    @keyframes moveupward{
+        0%{
+            transform: translateY(-200px); 
+        }
+        100%{
+            transform: translate(2px);
+        }
+    }
+    .shape3{
+        height:6px;
+        width:61em;
+        position: relative;
+        top:760px;
+        left:240px;
+        background-color:white;
+        animation: moveupward 1s linear 1;
+        animation-delay: .1s;
+        animation-fill-mode: upwards;
+    }
+    @keyframes moveupward{
+        0%{
+            transform: translateY(-200px); 
+        }
+        100%{
+            transform: translate(2px);
+        }
+    }
+    .shape2{
+        height:6px;
+        width:700px;
+        position: relative;
+        top:590px;
+        left:250px;
+        background-color:white;
+        animation: moveupward 1s linear 1;
+        animation-delay: .1s;
+        animation-fill-mode: upwards;
+    }
+    @keyframes moveupward{
+        0%{
+            transform: translateY(-200px); 
+        }
+        100%{
+            transform: translate(2px);
+        }
+    }
+    
+    .about{
+    background-color: #e1ad01;
+    height:620px;
+    width:940px;
+    position: relative;
+    left:140px;
+    top:40em;
+    }
+    .about > h2{
+        letter-spacing: 3px;
+        position: relative;
+        left:275PX;
+        top:250px;
+        font-weight: 300PX;
+        font-size: 68px;
+        font-family: roboto;
+    }
+    .about > p{
+        position: relative;
+        left:50px;
+        top:330px;
+        width:990px;
+        height:60px;
+        font-size: 46px;
+        font-family: open sans;
+    }
+    .company{
+        background-color: #e1ad01;
+        height:620px;
+        width:940px;
+        position: relative;
+        right:22em;;
+        top: 83em;
+        }.company > h2{
+            letter-spacing: 3px;
+            position: relative;
+            left:275PX;
+            top:250px;
+            font-weight: 300PX;
+            font-size: 68px;
+            font-family: roboto;
+        }
+        .company > p{
+            position: relative;
+        left:50px;
+        top:330px;
+        width:990px;
+        height:60px;
+        font-size: 46px;
+        font-family: open sans;
+        }
+        
+     .mission{
+        background-color: #e1ad01;
+        height:620px;
+        width:1120px;
+        position: relative;
+        right:60em;
+        top:125em;
+         }
+         .mission > h2{
+            letter-spacing: 3px;
+            position: relative;
+            left:375PX;
+             top:290px;
+            font-weight: 300PX;
+            font-size: 68px;
+            font-family: roboto;
+        }
+        .mission > p{
+            position: relative;
+            left:95px;
+            top:380px;
+            width:990px;
+            height:60px;
+            font-size: 53px;
+            font-family: open sans;
+        }
+        .awards{
+            background-color: #e1ad01;
+            height:620px;
+            width:1120px;
+            position: relative;
+            right:90em;
+            top:167em;
+            }
+            .awards > h2{
+                letter-spacing: 3px;
+                position: relative;
+                left:395PX;
+                top:290px;
+                font-weight: 300PX;
+                font-size: 72px;
+                font-family: roboto;
+            }
+            .awards> p{
+                position: relative;
+                left:95px;
+                top:380px;
+                width:990px;
+                height:60px;
+                font-size: 53px;
+                font-family: open sans;
+    }
+    
+    .box{
+        border:36px solid #e1ad01 ;
+        height:70vh;
+        background-color: rgb(231, 229, 229);
+        width:990px;
+        left:180px;
+        position: relative;
+        bottom:280px;
+    }
+    .squarencircle{
+        height:220vh;
+        width:200vw;
+        background-color:#2980B9;
+    }
+    .squarencircle > img{
+        height:480px;
+        width:160px;
+        border-radius: 190%;
+        position: relative;
+        left:19em;
+        top:14em;
+    }
+    .about-me{
+        position: relative;
+        float: right;
+        bottom:100px;
+        right:50em;
+    }
+    .about-me > h3{
+        font-size: 128px;
+        font-family: montserrat;
+        color: white;
+        position: relative;
+        right:.1em;
+    }
+    .about-me > p{
+        font-size:58px;
+        font-family: roboto;
+        width:16em;
+        line-height:125px;
+        position:relative;
+        top:94px;
+        color: white;
+        height:100px;
+    }
+    .line2{
+        height:10px;
+        width:640px;
+        background-color: white;
+        position: relative;
+        bottom:10px;
+    }
+    .grey-grid{
+        height:320vh;
+        width:200vw;
+        background-color: rgb(231, 229, 229);
+    }
+    .grey-grid > h6{
+        font-size:118px;
+        font-family: montserrat;
+        height:80px;
+        position: relative;
+        left:260px;
+        top:190px;
+        width:10em;
+    }
+    .line3{
+        background-color: black;
+        height:9px;
+        width:860px;
+        position: relative;
+        top:235px;
+        left:290px ;
+    }
+    .line4{
+        background-color: black;
+        height:9px;
+        width:890px;
+        position: relative;
+        top:300px;
+        left:260px ;
+    }
+    .grey-grid > p{
+        font-size: 56px;
+        font-family: open sans;
+        height:80px;
+        width:21em;
+        left:260px ;
+        line-height: 2em;
+        position: relative;
+        top:600px;
+    
+    }
+    .samegrid{
+        display: grid;
+        grid-template-rows: 200px ;
+        position:relative;
+        top:90em;
+        left:220px;
+    }
+    .grid1{
+        background-color: white;
+        height:640px;
+        width:850px;
+    }
+    .grid1 > h6{
+        font-size: 60px;
+        font-family: roboto;
+        position: relative;
+        left:40px;
+        top:30px;
+    }
+    .grid1 > p{
+        font-size: 46px;
+        font-family: open sans;
+        position: relative;
+        top:50px;
+        left:40px;
+        line-height: 55px;
+        width:616px;
+    }
+    .grid2{
+        height:280px;
+        width:400px;
+        position: relative;
+        left:-330px;
+        top:46em;
+    }
+    .grid2 > h6{
+        font-size: 60px;
+        font-family: roboto;
+        position: relative;
+        left:140px;
+        top:30px;
+    }
+    .grid2 > p{
+        font-size: 46px;
+        font-family: open sans;
+        position: relative;
+        top:50px;
+        left:140px;
+        line-height: 55px;
+        width:616px;
+    }
+    .grid3{
+        background-color: white;
+        height:640px;
+        width:850px;
+        position: relative;
+        left:-420px;
+        top:90em;
+    }
+    .grid3 > h6{
+        font-size: 60px;
+        font-family: roboto;
+        position: relative;
+        left:40px;
+        top:30px;
+    }
+    .grid3 > p{
+        font-size: 46px;
+        font-family: open sans;
+        position: relative;
+        top:50px;
+        left:40px;
+        line-height: 55px;
+        width:616px;
+    }
+    .grid4{
+        height:260px;
+        width:400px;
+        top:120em;
+        position: relative;
+        left:-40px;
+    }
+    .grid4 > h6{
+        font-size: 60px;
+        font-family: roboto;
+        position: relative;
+        left:40px;
+        top:30px;
+    }
+    .grid4 > p{
+        font-size: 46px;
+        font-family: open sans;
+        position: relative;
+        top:50px;
+        left:40px;
+        line-height: 55px;
+        width:616px;
+    }
+    .grid5{
+        background-color: white;
+        height:660px;
+        width:850px;
+        top:160em;
+        position: relative;
+        left:-200px;
+    }
+    .grid5 > h6{
+        font-size: 60px;
+        font-family: roboto;
+        position: relative;
+        left:40px;
+        top:30px;
+    }
+    .grid5 > p{
+        font-size: 46px;
+        font-family: open sans;
+        position: relative;
+        top:50px;
+        left:40px;
+        line-height: 55px;
+        width:616px;
+    }
+    .grid6{
+        height:260px;
+        width:400px;
+        top:205em;
+        position: relative;
+        left:-420px;
+    }
+    .grid6 > h6{
+        font-size: 60px;
+        font-family: roboto;
+        position: relative;
+        left:40px;
+        top:30px;
+    }
+    .grid6 > p{
+        font-size: 46px;
+        font-family: open sans;
+        position: relative;
+        top:50px;
+        left:40px;
+        line-height: 55px;
+        width:616px;
+    }
+    .we-do{
+        height:160vh;
+        width:100vw;
+        position: relative;
+        top:340em;
+        background-color: rgb(231, 229, 229);
+    }
+    .team{
+        height:40vh;
+        width:78vw;
+        position: relative;
+        left:7rem;
+        top:100em;
+        background-color: #FFDE00;
+    }

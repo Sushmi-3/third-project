@@ -1,0 +1,1011 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+
+.all-link{
+    display: flex;
+    padding-right: 8%;
+    align-items: center;
+    /* margin:22px 0 22px 22px; */
+    list-style: none;
+    height:5em;
+    background-color: #2980B9;
+}
+
+nav {
+    flex:1;
+    text-align: right;
+}
+nav li{
+    text-decoration:none;   
+}
+ ul li{
+    list-style: none;
+    display: inline-block;
+     margin-left: 40px; 
+     position: relative;
+     right:8em;
+    color:white;
+    text-transform: capitalize;
+    text-decoration:none;
+    list-style: none;
+    font-size: 18px;
+    font-family: open sans;
+}
+
+.logo{
+    height:34px;
+    width:57px;
+    position: relative;
+    top:4px;
+    left:15em;
+}
+
+.details{
+    background-image:url(./images-project3/image1.jpg);
+    height:120vh;
+    width:100vw;
+    background-size:cover;
+    background-position: center;
+    opacity: 99; 
+}
+.details >p {
+    font-size: 18px;
+    color:white;
+    position: relative;
+    top:530px;
+    left:240px;
+
+}
+.full-detail > h2{
+    font-size: 69px;
+    height:50px;
+    width:10px;
+    color: white;
+    font-family: montserrat;
+    margin-left:240px;
+    position: relative;
+    top:210px;
+    line-height: 40px;
+    animation: moveupward 1s linear 1;
+    animation-delay: .1s;
+    animation-fill-mode: upwards;
+}
+@keyframes moveupward{
+    0%{
+        transform: translateY(-200px); 
+    }
+    100%{
+        transform: translate(2px);
+    }
+} 
+.shape1{
+    height:6px;
+    width:400px;
+    position: relative;
+    top:210px;
+    left:240px;
+    background-color:white;
+    animation: moveupward 1s linear 1;
+    animation-delay: .1s;
+    animation-fill-mode: upwards;
+}
+@keyframes moveupward{
+    0%{
+        transform: translateY(-200px); 
+    }
+    100%{
+        transform: translate(2px);
+    }
+}
+.shape3{
+    height:6px;
+    width:390px;
+    position: relative;
+    top:360px;
+    left:240px;
+    background-color:white;
+    animation: moveupward 1s linear 1;
+    animation-delay: .1s;
+    animation-fill-mode: upwards;
+}
+@keyframes moveupward{
+    0%{
+        transform: translateY(-200px); 
+    }
+    100%{
+        transform: translate(2px);
+    }
+}
+.shape2{
+    height:6px;
+    width:330px;
+    position: relative;
+    top:280px;
+    left:250px;
+    background-color:white;
+    animation: moveupward 1s linear 1;
+    animation-delay: .1s;
+    animation-fill-mode: upwards;
+}
+@keyframes moveupward{
+    0%{
+        transform: translateY(-200px); 
+    }
+    100%{
+        transform: translate(2px);
+    }
+}
+
+.detail-grid{
+display: grid;
+grid-template-columns: 200px 200px 200px 200px;
+justify-content: space-around;
+position: relative;
+top:450px;
+animation: zoom 1s linear 1;
+animation-delay: .2s;
+animation-fill-mode: upwards;
+}
+@keyframes zoom{
+100%{
+    transform: scale(0,0); 
+}
+0%{
+    transform: scale(0,0);
+}
+} 
+
+.about{
+background-color: #e1ad01;
+height:220px;
+width:240px;
+position: relative;
+left:140px;
+}
+.about > h2{
+    letter-spacing: 3px;
+    position: relative;
+    left:65PX;
+    top:90px;
+    font-weight: 300PX;
+    font-size: 18px;
+    font-family: roboto;
+}
+.about > p{
+    position: relative;
+    left:50px;
+    top:110px;
+    width:190px;
+    height:60px;
+    font-size: 16px;
+    font-family: open sans;
+}
+.company{
+    background-color: #e1ad01;
+    height:220px;
+    width:240px;
+    position: relative;
+    right:-5px;
+    }.company > h2{
+        letter-spacing: 3px;
+        position: relative;
+        left:65PX;
+        top:90px;
+        font-weight: 300PX;
+        font-size: 18px;
+        font-family: roboto;
+    }
+    .company > p{
+        position: relative;
+        left:50px;
+        top:110px;
+        width:190px;
+        height:60px;
+        font-size: 16px;
+        font-family: open sans;
+    }
+    
+ .mission{
+    background-color: #e1ad01;
+    height:220px;
+    width:240px;
+    position: relative;
+    right:130px;
+     }
+     .mission > h2{
+        letter-spacing: 3px;
+        position: relative;
+        left:50PX;
+        top:90px;
+        font-weight: 300PX;
+        font-size: 18px;
+        font-family: roboto;
+    }
+    .mission > p{
+        position: relative;
+        left:50px;
+        top:110px;
+        width:190px;
+        height:60px;
+        font-size: 16px;
+        font-family: open sans;
+    }
+     .awards{
+        background-color: #e1ad01;
+        height:220px;
+        width:240px;
+        position: relative;
+        right:260px;
+        }
+        .awards > h2{
+            letter-spacing: 3px;
+            position: relative;
+            left:65PX;
+            top:90px;
+            font-weight: 300PX;
+            font-size: 18px;
+            font-family: roboto;
+        }
+        .awards> p{
+            position: relative;
+            left:50px;
+            top:110px;
+            width:190px;
+            height:60px;
+            font-size: 16px;
+            font-family: open sans;
+}
+
+.box{
+    border:16px solid #e1ad01 ;
+    height:70vh;
+    background-color: rgb(231, 229, 229);
+    width:370px;
+    left:270px;
+    position: relative;
+    bottom:350px;
+}
+.squarencircle > img{
+    height:380px;
+    width:360px;
+    border-radius: 190%;
+    position: relative;
+    left:19em;
+    top:7em;
+}
+.about-me{
+    position: relative;
+    float: right;
+    bottom:900px;
+    right:200px;
+}
+.about-me > h3{
+    font-size: 48px;
+    font-family: montserrat;
+    color: white;
+}
+.squarencircle{
+    height:85vh;
+    width:100vw;
+    background-color:#2980B9;
+}
+.about-me > p{
+    font-size:18px;
+    font-family: roboto;
+    width:390px;
+    line-height:35px;
+    position:relative;
+    top:20px;
+    color: white;
+    height:100px;
+}
+.line2{
+    height:3px;
+    width:240px;
+    background-color: white;
+    position: relative;
+    bottom:10px;
+}
+.grey-grid{
+    height:240vh;
+    width:100vw;
+    background-color: rgb(231, 229, 229);
+}
+.grey-grid > h6{
+    font-size: 48px;
+    font-family: montserrat;
+    height:80px;
+    position: relative;
+    left:220px;
+    top:100px;
+    width:600px;
+}
+.line3{
+    background-color: black;
+    height:4px;
+    width:360px;
+    position: relative;
+    top:75px;
+    left:220px ;
+}
+.line4{
+    background-color: black;
+    height:4px;
+    width:560px;
+    position: relative;
+    top:50px;
+    left:220px ;
+}
+.grey-grid > p{
+    font-size: 16px;
+    font-family: open sans;
+    height:80px;
+    width:720px;
+    left:220px ;
+    position: relative;
+    top:160px;
+    line-height: 26px;
+}
+.samegrid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px ;
+    position:relative;
+    top:250px;
+    left:220px;
+}
+.grid1{
+    background-color: white;
+    height:260px;
+    width:400px;
+}
+.grid1 > h6{
+    font-size: 20px;
+    font-family: roboto;
+    position: relative;
+    left:40px;
+    top:30px;
+}
+.grid1 > p{
+    font-size: 16px;
+    font-family: open sans;
+    position: relative;
+    top:50px;
+    left:40px;
+    line-height: 25px;
+    width:316px;
+}
+.grid2{
+    height:280px;
+    width:400px;
+    position: relative;
+    left:240px;
+}
+.grid2 > h6{
+    font-size: 20px;
+    font-family: roboto;
+    position: relative;
+    left:40px;
+    top:30px;
+}
+.grid2 > p{
+    font-size: 16px;
+    font-family: open sans;
+    position: relative;
+    top:50px;
+    left:40px;
+    line-height: 25px;
+    width:316px;
+}
+.grid3{
+    background-color: white;
+    height:260px;
+    width:400px;
+    position: relative;
+    left:480px;
+}
+.grid3 > h6{
+    font-size: 20px;
+    font-family: roboto;
+    position: relative;
+    left:40px;
+    top:30px;
+}
+.grid3 > p{
+    font-size: 16px;
+    font-family: open sans;
+    position: relative;
+    top:50px;
+    left:40px;
+    line-height: 25px;
+    width:316px;
+}
+.grid4{
+    height:260px;
+    width:400px;
+    top:20px;
+    position: relative;
+    left:-2px;
+}
+.grid4 > h6{
+    font-size: 20px;
+    font-family: roboto;
+    position: relative;
+    left:40px;
+    top:30px;
+}
+.grid4 > p{
+    font-size: 16px;
+    font-family: open sans;
+    position: relative;
+    top:50px;
+    left:40px;
+    line-height: 25px;
+    width:316px;
+}
+.grid5{
+    background-color: white;
+    height:260px;
+    width:400px;
+    top:20px;
+    position: relative;
+    left:240px;
+}
+.grid5 > h6{
+    font-size: 20px;
+    font-family: roboto;
+    position: relative;
+    left:40px;
+    top:30px;
+}
+.grid5 > p{
+    font-size: 16px;
+    font-family: open sans;
+    position: relative;
+    top:50px;
+    left:40px;
+    line-height: 25px;
+    width:316px;
+}
+.grid6{
+    height:260px;
+    width:400px;
+    top:20px;
+    position: relative;
+    left:480px;
+}
+.grid6 > h6{
+    font-size: 20px;
+    font-family: roboto;
+    position: relative;
+    left:40px;
+    top:30px;
+}
+.grid6 > p{
+    font-size: 16px;
+    font-family: open sans;
+    position: relative;
+    top:50px;
+    left:40px;
+    line-height: 25px;
+    width:316px;
+}
+.we-do{
+    height:190vh;
+    width:100vw;
+    background-color: rgb(231, 229, 229);
+}
+.we-do >h2{
+position: relative;
+top:400px;
+left:650px;
+font-size: 48px;
+font-family:montserrat;
+}
+.line5 {
+    height: 4px;
+    left:650px;
+    width:310px;
+    background-color: black;
+    position:relative;
+    top:400px;
+} 
+.five-grid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+}
+.image1 > img{
+    height:330px;
+    width:270px;
+    position: relative;
+    top:450px;
+    left:200px;
+}
+.image2 > img{
+    height:330px;
+    width:270px;
+    position: relative;
+    top:450px;
+    left:480px;
+}
+.rect1{
+    border:20px solid #e1ad01;
+    height: 290px;
+    width: 240px; 
+    position: relative;
+    top:450px;
+    left:290px;
+}
+.rect1 > h2{
+    font-size: 24px;
+    font-family: montserrat;
+    position: relative;
+    top:2em;
+    left:.5em;
+    width:2em;
+}
+.content1 > p{
+    position: relative;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: open sans;
+    top:490px;
+    left:420px;
+}
+.image3 > img{
+    height:330px;
+    width:279px;
+    position: relative;
+    top:470px;
+    left:490px;
+}
+.rect2{
+    border:20px solid #e1ad01;
+    height: 290px;
+    width: 240px; 
+    position: relative;
+    top:135px;
+    left:790px;
+
+}
+.team{
+    height:40vh;
+    width:78vw;
+    position: relative;
+    left:7rem;
+    bottom: 5.5em;
+    background-color: #FFDE00;
+}
+.team > h2{
+    font-size: 42px;
+    font-family: montserrat;
+    position: relative;
+    top:50px;
+    left:420px;
+
+}
+.line5-5{
+    height:4px;
+    width:417px;
+    background-color: black;
+    position: relative;
+    top:45px;
+    left:420px;
+} 
+.team > p{
+    font-size: 16px;
+    font-family: open sans;
+    position: relative;
+    top:90px;
+    left:300px;
+}
+.team-members{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    height:50vh;
+    position: relative;
+    top:650px;
+    left:500px;
+    width:100vw;
+}
+.developer{
+    position: relative;
+    right:200px;
+    bottom: 5.5em;
+}
+.developer > img{
+height:190px;
+width:180px;
+border-radius: 190%;
+position: relative;
+bottom:20px;
+filter: none; 
+-webkit-filter: blur(0px); 
+-moz-filter: blur(0px); 
+-ms-filter: blur(0px);
+filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+}
+.developer > h5{
+font-size: 24px;
+position: relative;
+left: 0.5em;
+font-family: montserrat;
+}
+.developer > h6{
+    font-size: 18px;
+    font-family: roboto;
+    position: relative;
+    top:0.5em;
+    left:3em;
+}
+.developer > p{
+    position: relative;
+    top:2em;
+    right:4em;
+    line-height:2em;
+    width:21em;
+    font-size: 16px;
+    font-family: open sans;
+}
+.manager{
+    position: relative;
+    background-color:rgb(240, 238, 238) ;
+    right:12em;
+    bottom: 8em;
+    width:25em;
+    height:25em;
+}
+.manager > img{
+    height:190px;
+    width:180px;
+    border-radius: 100%;
+    position: relative;
+    left:6em;
+    top:2em;
+    filter: none; 
+    -webkit-filter: blur(0px); 
+    -moz-filter: blur(0px); 
+    -ms-filter: blur(0px);
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+ }
+ .manager > h5{
+     font-size: 24px;
+     font-family: montserrat;
+     position: relative;
+     top:2em;
+     left:4.5em;
+ }
+ .manager > h6{
+     font-size: 18px;
+     font-family: roboto;
+     position: relative;
+     top:3em;
+     left:8.5em;
+ }
+ .manager > p{
+     position: relative;
+     top:4.5em;
+     left:2em;
+     font-size: 16px;
+     font-family: open sans;
+     line-height: 2em;
+     width:21em;
+ }
+.designer{
+    position: relative;
+    bottom: 5.5em;
+
+}
+.designer > img{
+    height:190px;
+    width:180px;
+    border-radius: 190%;
+    position: relative;
+    bottom:20px;
+    filter: none; 
+    -webkit-filter: blur(0px); 
+    -moz-filter: blur(0px); 
+    -ms-filter: blur(0px);
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+    }
+    .designer > h5{
+    font-size: 24px;
+    position: relative;
+    left: 0.5em;
+    font-family: montserrat;
+    }
+    .designer > h6{
+        font-size: 18px;
+        font-family: roboto;
+        position: relative;
+        top:0.5em;
+        left:3em;
+    }
+    .designer > p{
+        position: relative;
+        top:2em;
+        right:4em;
+        line-height:2em;
+        width:21em;
+        font-size: 16px;
+        font-family: open sans;
+    }
+    .dropdown{
+        height:60vh;
+        width:100vw;
+    }
+    .dropbtn {
+        background-color: #3498DB;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .dropbtn:hover, .dropbtn:focus {
+        background-color: #2980B9;
+      }
+      .dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+    .cards{
+       height: 110vh;
+       width:100vw;
+        position: relative;
+        top:120em;
+        background-image: url(./images-project3/image9.jpeg);
+        background-position:center;
+        background-size: cover;
+    }
+    .cards > h1{
+        font-size: 48px;
+        font-family: montserrat;
+        color:white;
+        position: relative;
+        top:1.5em;
+        left:10em;
+    }
+    .cards > p{
+        font-size: 18px;
+        font-family: open sans;
+        color: white;
+        width:32em;
+        position: relative;
+        top:6em;
+        left:28em;
+    }
+    .line6{
+        position: relative;
+        top:4.3em;
+        left:30em;
+        height:3px;
+        width:38.5em;
+        background-color:white;
+    }
+    .cards-content{
+        background-color: white;
+        height:570px;
+        width:390px;
+        position: relative;
+        left:25em;
+        top:10em;
+    }
+    .cards-content > h4{
+        font-size: 24px;
+        font-family: roboto;
+        letter-spacing: 7px;
+        position: relative;
+        top:1.5em;
+        left:6em;
+    }
+    .cards-content > h2{
+        font-size: 60px;
+        font-family: montserrat;
+        position: relative;
+        top:1em;
+        left:2em;
+    }
+    .grey-card{
+        position: relative;
+        background-color: rgb(150, 143, 143);
+        height:23.7em;
+        width:23.6em;
+        left:0.4em;
+        top:5.3em;
+    }
+    .grey-card > p{
+        font-size: 16px;
+        font-family: open sans;
+        position: relative;
+        right:1em;
+        top:3em;
+        text-align: center;
+    }
+    .grey-card > button{
+        position: relative;
+        top:5em;
+        left: 6.7em;
+        width:9em;
+        height: 3em;
+        font-size: 16px;
+
+    }
+    .cards-content2{
+        background-color: #FFDE00;
+        height:570px;
+        width:390px;
+        position: relative;
+        left:51em;
+        top:-25.7em;
+    }
+    .cards-content2 > h4{
+        font-size: 24px;
+        font-family: roboto;
+        letter-spacing: 7px;
+        position: relative;
+        top:1.5em;
+        left:4.3em;
+    }
+    .cards-content2 > h2{
+        font-size: 60px;
+        font-family: montserrat;
+        position: relative;
+        top:1em;
+        left:2em;
+    }
+    .yellow-card{
+        position: relative;
+        background-color:white;
+        height:23.7em;
+        width:23.6em;
+        left:0.4em;
+        top:5.2em;
+    }
+    .yellow-card > p{
+        font-size: 16px;
+        font-family: open sans;
+        position: relative;
+        right:1em;
+        top:3em;
+        text-align: center;
+    }
+    .yellow-card > button{
+        position: relative;
+        top:5em;
+        left: 6.7em;
+        width:9em;
+        height: 3em;
+        font-size: 16px;
+        background-color: #FFDE00;
+        border-style: none;
+    }
+    .information{
+        position: relative;
+        background-color: rgb(54, 116, 250);
+        height:50vh;
+        width:100vw;
+        bottom:24em;
+    }
+    .information > h2{
+        font-size: 48px;
+        font-family: montserrat;
+        color:white;
+        position: relative;
+        bottom:-1.2em;
+        left:11em;
+    }
+    .information > p{
+        font-size: 16px;
+        font-family: open sans;
+        color:white;
+        position: relative;
+        bottom:-4.8em;
+        left:33em;
+        width:32em;
+    }
+    .mini-images{
+        display: grid;
+        position: relative;
+        top:9em;
+        grid-template-columns: 100px 100px 100px 100px 100px 100px;
+        justify-content: space-between;
+    }
+    .mini1{
+        position: relative;
+        left:15em;
+    }
+    .mini2{
+        position: relative;
+        left:8em;
+    }
+    .mini3{
+        position: relative;
+        left:3em;
+    }
+    .mini4{
+        position: relative;
+        left:-2em;
+    }
+    .mini5{
+        position: relative;
+        left:-9em;
+    }
+    .mini6{
+        position: relative;
+        left:-17em;
+    }
+    .all-forms{
+        background-image: url(./images-project3/image10.jpeg);
+        height: 90vh;
+        width: 100vw;
+        position: relative;
+        bottom:24em;
+        opacity:10px;
+    }
+    .form-line{
+        border:20px solid #FFDE00;
+        height: 13em;
+        width: 65em;
+        position: relative;
+        top:15em;
+        left: 17em;
+    }
+    .main-form{
+        height: 35em;
+        width:50em;
+        border-radius: 2em;
+        background-color: white;
+        position: relative;
+        bottom:10em;
+        left:25em;
+    }
+    .input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+     .main-form > h1{
+         font-family: montserrat;
+         font-size: 50px;
+        position:relative;
+        left:4.5em;
+        top:1em;
+     }
+     .con-line{
+         height:.3em;
+        width:17.5em;
+        background-color: black;
+        position: relative;
+        left:14.3em;
+        top:2.5em;
+     }
